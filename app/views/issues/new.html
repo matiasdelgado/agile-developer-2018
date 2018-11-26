@@ -16,6 +16,17 @@
     </div>
 
     <div class="form__field">
+      <select type="text" name="issue[estimation]" class="form__input">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>5</option>
+        <option>8</option>
+        <option>13</option>
+      </select>
+    </div>
+
+    <div class="form__field">
       <textarea name="issue[description]" placeholder="Description..." class="form__textarea" rows="10">{{issue.description}}</textarea>
 
       {{#if errors.description}}
