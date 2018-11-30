@@ -5,6 +5,8 @@
   margin: 0 auto;
 }
 
+.empty-rule{
+}
 .metric path {
   stroke-width: 75;
   stroke: #ecf0f1;
